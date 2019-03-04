@@ -12,7 +12,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_screen);
-        final Intent intent = new Intent(this, SignUpActivity.class);
+        final Intent intent = new Intent(this, ChatScreen.class);
         final Button button = findViewById(R.id.buttonSignUp);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
